@@ -1,7 +1,7 @@
 // src/services/api.js  —  Axios API client for SKYLINE ARS
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const BASE_URL = process.env.REACT_APP_API_URL || "https://skyline-ars-backend.up.railway.app";
 
 const api = axios.create({
   baseURL: BASE_URL,
