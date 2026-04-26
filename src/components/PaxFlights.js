@@ -1,1 +1,1 @@
-export { PaxFlights as default } from './PaxMyBookings';
+const PaxFlights = () => <div>Flights</div>; export default PaxFlights;
